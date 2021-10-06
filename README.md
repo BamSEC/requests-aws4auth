@@ -248,11 +248,11 @@ Version release notes
 
 - update `HISTORY.md`
 - update `requests_aws4auth/__init__.py`
+- cut a branch on github
 
 prep:
 ```
-python3 -m pip install --user --upgrade setuptools wheel
-python3 -m pip install --user --upgrade twine
+python3 -m pip install --user --upgrade setuptools wheel testresources twine
 ```
 
 build and release, creds in `~/.pypirc`:
